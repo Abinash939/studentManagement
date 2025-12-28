@@ -1,0 +1,45 @@
+.student-card{
+      background-color: #b5d9e88a;
+    width: 157px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.main-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.student-actions{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.student-actions span{
+  cursor: pointer;
+}
+.student-info span{
+  display: block;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  border-radius: 5px;
+}
+.nav-left{
+  display: flex;
+}
+.nav-right{
+
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
